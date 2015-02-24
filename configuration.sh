@@ -16,7 +16,8 @@ SDSIZE="1200"                               # SD image size in MB
 
 BOOTLOADER="https://github.com/RobertCNelson/u-boot"
 BOOTSOURCE="u-boot"
-LINUXKERNEL="https://github.com/dan-and/linux-sunxi"
+#LINUXKERNEL="https://github.com/dan-and/linux-sunxi"
+LINUXKERNEL="--dept 1 https://github.com/linux-sunxi/linux-sunxi"
 LINUXSOURCE="linux-sunxi"
 LINUXCONFIG="linux-sunxi"
 CPUMIN="480000"
