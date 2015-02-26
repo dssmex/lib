@@ -562,8 +562,8 @@ echo "Title:			$VERSION (unofficial)" >> $1
 echo "Kernel:			Linux $VER" >> $1
 now="$(date +'%d.%m.%Y')" >> $1
 printf "Build date:		%s\n" "$now" >> $1
-echo "Author:			Igor Pecovnik, www.igorpecovnik.com" >> $1
-echo "Sources: 		http://github.com/igorpecovnik" >> $1
+echo "Author:			dssmex, dssmex@live.com.mx" >> $1
+echo "Sources: 		http://github.com/dssmex" >> $1
 echo "" >> $1
 echo "" >> $1
 echo "" >> $1
